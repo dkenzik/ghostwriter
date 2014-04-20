@@ -1,4 +1,11 @@
 {
 	"name": "Ghostwriter",
-	"version": "1.6.0"
+	"version": "1.6.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "matchdep": "~0.1.2",
+    "node-sass": "~0.7.0",
+    "grunt-sass": "~0.8.0",
+    "grunt-contrib-watch": "~0.4.3"
+  }
 }

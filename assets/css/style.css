@@ -61,7 +61,7 @@ blockquote {
   margin: 40px 0;
   padding: 5px 30px; }
   blockquote p {
-    color: #AEADAD;
+    color: #aeadad;
     display: block;
     font-style: italic;
     margin: 0;
@@ -74,8 +74,8 @@ img {
   max-width: 100%; }
 
 pre {
-  background: #F1F0EA;
-  border: 1px solid #DDDBCC;
+  background: #f1f0ea;
+  border: 1px solid #dddbcc;
   border-radius: 3px;
   margin: 0 0 40px;
   padding: 15px 20px; }
@@ -88,8 +88,7 @@ hr {
 table {
   margin-bottom: 40px;
   width: 100%; }
-  table tbody > tr:nth-child(odd) > td,
-  table tbody > tr:nth-child(odd) > th {
+  table tbody > tr:nth-child(odd) > td, table tbody > tr:nth-child(odd) > th {
     background-color: #f7f7f3; }
   table th {
     padding: 0 10px 10px;
@@ -97,16 +96,16 @@ table {
   table td {
     padding: 10px; }
   table tr {
-    border-bottom: 1px dotted #AEADAD; }
+    border-bottom: 1px dotted #aeadad; }
 
 ::selection {
-  background: #FFF5B8;
-  color: #000;
+  background: #fff5b8;
+  color: black;
   display: block; }
 
 ::-moz-selection {
-  background: #FFF5B8;
-  color: #000;
+  background: #fff5b8;
+  color: black;
   display: block; }
 
 .fluid-width-video-wrapper {
@@ -146,7 +145,7 @@ table {
   background: #303030;
   border: none;
   border-radius: 3px;
-  color: #FEFEFE;
+  color: #fefefe;
   font-size: 14px;
   font-weight: 700;
   padding: 10px 12px;
@@ -156,7 +155,7 @@ table {
 
 .button-square {
   background: #f03838;
-  color: #FFF;
+  color: white;
   float: left;
   font-size: 17px;
   margin: 0 0 0 10px;
@@ -186,7 +185,7 @@ table {
   .site-title a {
     float: left;
     background: #f03838;
-    color: #FEFEFE;
+    color: #fefefe;
     padding: 5px 10px 6px; }
     .site-title a:hover {
       background: #303030; }
@@ -219,8 +218,7 @@ table {
   text-align: center;
   text-transform: uppercase; }
 
-.post-title,
-.page-title {
+.post-title, .page-title {
   font-size: 52px;
   font-weight: 700;
   margin: 15px 0;
@@ -230,15 +228,13 @@ table {
 .page-title {
   margin: 15px 40px; }
 
-.post-date,
-.blog-description {
-  color: #AEADAD;
+.post-date, .blog-description {
+  color: #aeadad;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
   margin: 25px 0 0; }
-  .post-date:after,
-  .blog-description:after {
+  .post-date:after, .blog-description:after {
     border-bottom: 1px dotted #303030;
     content: "";
     display: block;
@@ -254,15 +250,12 @@ table {
 .post-footer {
   margin-top: 5px; }
 
-.post-tags,
-.share {
-  color: #AEADAD;
+.post-tags, .share {
+  color: #aeadad;
   font-size: 14px; }
-  .post-tags span,
-  .share span {
+  .post-tags span, .share span {
     font-weight: 600; }
-  .post-tags a:hover,
-  .share a:hover {
+  .post-tags a:hover, .share a:hover {
     color: #303030; }
 
 .post-tags {
@@ -273,7 +266,7 @@ table {
   float: right; }
   .share a {
     background: #f03838;
-    color: #FFF;
+    color: white;
     display: inline-block;
     font-size: 16px;
     margin-left: 5px;
@@ -287,18 +280,16 @@ table {
   display: table;
   margin: 70px auto 100px; }
 
-.newer-posts,
-.older-posts {
+.newer-posts, .older-posts {
   float: left;
   background: #f03838;
-  color: #FEFEFE;
+  color: #fefefe;
   font-size: 14px;
   font-weight: 600;
   margin: 0 5px;
   padding: 5px 10px 6px;
   text-transform: uppercase; }
-  .newer-posts:hover,
-  .older-posts:hover {
+  .newer-posts:hover, .older-posts:hover {
     background: #303030; }
 
 .page-number {
@@ -327,7 +318,7 @@ table {
     color: #424242;
     padding: 20px 5px; }
     .post-stub a:hover {
-      background: #FCF5F5;
+      background: #fcf5f5;
       color: #f03838;
       padding: 20px 12px; }
       .post-stub a:hover .post-stub-tag {
@@ -336,7 +327,7 @@ table {
 .post-stub-tag {
   background: #303030;
   border-radius: 3px;
-  color: #FFF;
+  color: white;
   float: right;
   font-size: 10px;
   margin: 7px 0 0;
@@ -353,8 +344,7 @@ table {
   .post-stub-date:before {
     content: "/ "; }
 
-.next-posts-link a,
-.previous-posts-link a {
+.next-posts-link a, .previous-posts-link a {
   display: block;
   padding: 8px 11px; }
 
@@ -363,14 +353,13 @@ table {
 /* ============================================================ */
 .footer {
   background: #303030;
-  color: #D3D3D3;
+  color: lightgrey;
   height: 265px;
   margin-top: 95px;
   overflow: auto; }
   .footer .site-title-wrapper {
     margin: 80px auto 35px; }
-  .footer .site-title a:hover,
-  .footer .button-square:hover {
+  .footer .site-title a:hover, .footer .button-square:hover {
     background: #121212; }
   .footer .button-jump-top {
     font-size: 23px;
@@ -387,7 +376,7 @@ table {
     color: #656565;
     font-weight: 700; }
     .footer-copyright a:hover {
-      color: #FEFEFE; }
+      color: #fefefe; }
 
 /* ============================================================ */
 /* NProgress */
@@ -408,36 +397,30 @@ table {
 @media only screen and (max-width: 800px) {
   .post-stub-tag {
     display: none; } }
+
 @media only screen and (max-width: 600px) {
   .site-nav-item {
     display: block;
     margin: 15px 0; }
-
   .post-stub-title {
     display: block; }
-
   .post-stub-date:before {
     content: "";
     display: block; }
-
-  .post-container,
-  .post-list {
+  .post-container, .post-list {
     margin-right: 25px;
     margin-left: 25px; }
-
   .post-tags {
     width: 100%; }
-
   .share {
     float: left;
     margin-top: 20px; }
     .share a {
       margin: 0 5px 0 0; } }
+
 @media only screen and (max-width: 400px) {
   .post-title {
     font-size: 32px; }
-
-  .post-container,
-  .post-list {
+  .post-container, .post-list {
     margin-right: 15px;
     margin-left: 15px; } }
